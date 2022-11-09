@@ -1,0 +1,142 @@
+#foto img{
+    
+    width: 30%;
+    height: 400px;
+   
+    
+}
+#titulo{
+   margin-left:10%;
+   
+}
+#foto{
+    margin-left: 10%;
+    transform:
+    perspective(60em)
+    rotateX(18deg);
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+    z-index: 10;
+    position:relative;
+}
+foto:hover{
+    box-shadow:
+    rgba(170, 171, 172, 0.42) 0px 60px 123px -25px,
+    rgba(242, 247, 252, 0.08) 0px 35px 75px -35px;}
+h1{
+    color: rgb(247, 247, 58);
+    text-shadow: 2px 2px rgb(255, 119, 0);
+    transform:
+    perspective(50em)
+    rotateX(18deg);
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+}
+p{
+    color: rgb(247, 247, 58);
+    text-shadow: 2px 2px rgb(255, 119, 0);
+    font-size: larger;
+}
+
+body{
+    background-color: rgb(38, 35, 35);
+}
+#textofondo{
+    margin-top: -410px;
+    margin-left: 484px;
+    width: 40%;
+    height: 427px;
+    background-color: black;
+    border: 2px solid rgb(247, 247, 58);
+    transform:
+    perspective(75em)
+    rotateX(18deg);
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  border-radius: 10px;
+
+}
+#tecnologias p{
+    padding-left: 10px;
+}
+#tecnologias{
+    margin-top: -410px;
+    margin-left: 484px;
+    width: 40%;
+    height: 427px;
+    transform:
+    perspective(75em)
+    rotateX(18deg);
+    box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid rgb(247, 247, 58);
+    display:none;
+
+}
+#contacto{
+    margin-top: -410px;
+    margin-left: 484px;
+    width: 40%;
+    height: 427px;
+    transform:
+    perspective(75em)
+    rotateX(18deg);
+    box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+     border-radius: 10px;
+    background-color: black;
+    border: 2px solid rgb(247, 247, 58);
+    display:none;
+}
+#minidescripcion p{
+    margin-top: -19px;
+    margin-left: 10px;
+}
+#masdescripcion p{
+    margin-top: 40px;
+}
+#mostrartecnologias{
+    background-color: black;
+    border: 2px solid rgb(247, 247, 58);
+    border-radius: 5px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 350px;
+    z-index: 20;
+    position: absolute;
+    border-radius: 50%;
+}
+#mostrardescripcion{
+    background-color: black;
+    border: 2px solid rgb(247, 247, 58);
+    border-radius: 5px;
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 350px;
+    z-index: 20;
+    position: absolute;
+    border-radius: 50%;
+}
+#mostrarcontacto{
+    background-color: black;
+    border: 2px solid rgb(247, 247, 58);
+    border-radius: 5px;
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top: 350px;
+    z-index: 20;
+    position: absolute;
+    border-radius: 50%;
+}
+#contacto p{
+    font-size: 30px;
+    padding-top: 20%;
+    padding-left: 10%;
+}
